@@ -1,0 +1,10 @@
+$*Programa
+name <_PROG1>;
+body
+data integer32 _A,_B,_X,_C;
+scan(_A);
+scan(_B);
+scan(_C);
+_X::_A * 10 +  _B / 10 + _C % 10;
+print(_X);
+end

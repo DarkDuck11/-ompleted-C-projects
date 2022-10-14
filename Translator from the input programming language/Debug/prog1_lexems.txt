@@ -1,0 +1,55 @@
+Table of tokens!
+=======================================================
+#	        NAME                TYPE     VALUE LINE
+=======================================================
+1	     $*Prog1            comentar         0    1
+2	        name             program         0    2
+3	    <_PROG1>        program name         0    2
+4	           ;           separator         0    2
+5	        body               start         0    3
+6	        data            variable         0    4
+7	   integer32            var type         0    4
+8	          _A          identifier         0    4
+9	           ,               comma         0    4
+10	          _B          identifier         0    4
+11	           ,               comma         0    4
+12	          _X          identifier         0    4
+13	           ,               comma         0    4
+14	          _C          identifier         0    4
+15	           ;           separator         0    4
+16	        scan               input         0    5
+17	           (         left braket         0    5
+18	          _A          identifier         0    5
+19	           )        right braket         0    5
+20	           ;           separator         0    5
+21	        scan               input         0    6
+22	           (         left braket         0    6
+23	          _B          identifier         0    6
+24	           )        right braket         0    6
+25	           ;           separator         0    6
+26	        scan               input         0    7
+27	           (         left braket         0    7
+28	          _C          identifier         0    7
+29	           )        right braket         0    7
+30	           ;           separator         0    7
+31	          _X          identifier         0    8
+32	          ::           new value         0    8
+33	          _A          identifier         0    8
+34	           *                 mul         0    8
+35	          10              number        10    8
+36	           +                 add         0    8
+37	          _B          identifier         0    8
+38	           /                 div         0    8
+39	          10              number        10    8
+40	           +                 add         0    8
+41	          _C          identifier         0    8
+42	           %                 mod         0    8
+43	          10              number        10    8
+44	           ;           separator         0    8
+45	       print              output         0    9
+46	           (         left braket         0    9
+47	          _X          identifier         0    9
+48	           )        right braket         0    9
+49	           ;           separator         0    9
+50	         end                 end         0   10
+51	                     end of file         0   10

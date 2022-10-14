@@ -1,0 +1,173 @@
+Table of tokens!
+=======================================================
+#	        NAME                TYPE     VALUE LINE
+=======================================================
+1	     $*Prog2            comentar         0    1
+2	        name             program         0    2
+3	    <_PROG2>        program name         0    2
+4	           ;           separator         0    2
+5	        body               start         0    3
+6	        data            variable         0    4
+7	   integer32            var type         0    4
+8	          _A          identifier         0    4
+9	           ,               comma         0    4
+10	          _B          identifier         0    4
+11	           ,               comma         0    4
+12	          _C          identifier         0    4
+13	           ;           separator         0    4
+14	        scan               input         0    5
+15	           (         left braket         0    5
+16	          _A          identifier         0    5
+17	           )        right braket         0    5
+18	           ;           separator         0    5
+19	        scan               input         0    6
+20	           (         left braket         0    6
+21	          _B          identifier         0    6
+22	           )        right braket         0    6
+23	           ;           separator         0    6
+24	        scan               input         0    7
+25	           (         left braket         0    7
+26	          _C          identifier         0    7
+27	           )        right braket         0    7
+28	           ;           separator         0    7
+29	          if                  if         0    8
+30	           (         left braket         0    8
+31	          _A          identifier         0    8
+32	          >=              greate         0    8
+33	          _B          identifier         0    8
+34	           )        right braket         0    8
+35	        body               start         0    9
+36	          if                  if         0   10
+37	           (         left braket         0   10
+38	          _A          identifier         0   10
+39	          <=                less         0   10
+40	          _C          identifier         0   10
+41	           )        right braket         0   10
+42	        body               start         0   11
+43	       print              output         0   12
+44	           (         left braket         0   12
+45	          _C          identifier         0   12
+46	           )        right braket         0   12
+47	           ;           separator         0   12
+48	        else                else         0   13
+49	       print              output         0   14
+50	           (         left braket         0   14
+51	          _A          identifier         0   14
+52	           )        right braket         0   14
+53	           ;           separator         0   14
+54	         end                 end         0   15
+55	        else                else         0   16
+56	          if                  if         0   17
+57	           (         left braket         0   17
+58	          _B          identifier         0   17
+59	          <=                less         0   17
+60	          _C          identifier         0   17
+61	           )        right braket         0   17
+62	        body               start         0   18
+63	       print              output         0   19
+64	           (         left braket         0   19
+65	          _C          identifier         0   19
+66	           )        right braket         0   19
+67	           ;           separator         0   19
+68	        else                else         0   20
+69	       print              output         0   21
+70	           (         left braket         0   21
+71	          _B          identifier         0   21
+72	           )        right braket         0   21
+73	           ;           separator         0   21
+74	         end                 end         0   22
+75	         end                 end         0   23
+76	          if                  if         0   24
+77	           (         left braket         0   24
+78	           (         left braket         0   24
+79	          _A          identifier         0   24
+80	          eg                 equ         0   24
+81	          _B          identifier         0   24
+82	           )        right braket         0   24
+83	          &&                 and         0   24
+84	           (         left braket         0   24
+85	          _A          identifier         0   24
+86	          eg                 equ         0   24
+87	          _C          identifier         0   24
+88	           )        right braket         0   24
+89	          &&                 and         0   24
+90	           (         left braket         0   24
+91	          _B          identifier         0   24
+92	          eg                 equ         0   24
+93	          _C          identifier         0   24
+94	           )        right braket         0   24
+95	           )        right braket         0   24
+96	        body               start         0   25
+97	       print              output         0   26
+98	           (         left braket         0   26
+99	           1              number         1   26
+100	           )        right braket         0   26
+101	           ;           separator         0   26
+102	        else                else         0   27
+103	       print              output         0   28
+104	           (         left braket         0   28
+105	           0              number         0   28
+106	           )        right braket         0   28
+107	           ;           separator         0   28
+108	         end                 end         0   29
+109	          if                  if         0   30
+110	           (         left braket         0   30
+111	           (         left braket         0   30
+112	          _A          identifier         0   30
+113	          <=                less         0   30
+114	           0              number         0   30
+115	           )        right braket         0   30
+116	          ||                  or         0   30
+117	           (         left braket         0   30
+118	          _B          identifier         0   30
+119	          <=                less         0   30
+120	           0              number         0   30
+121	           )        right braket         0   30
+122	          ||                  or         0   30
+123	           (         left braket         0   30
+124	          _C          identifier         0   30
+125	          <=                less         0   30
+126	           0              number         0   30
+127	           )        right braket         0   30
+128	           )        right braket         0   30
+129	        body               start         0   31
+130	       print              output         0   32
+131	           (         left braket         0   32
+132	          -1              number        -1   32
+133	           )        right braket         0   32
+134	           ;           separator         0   32
+135	        else                else         0   33
+136	       print              output         0   34
+137	           (         left braket         0   34
+138	           0              number         0   34
+139	           )        right braket         0   34
+140	           ;           separator         0   34
+141	         end                 end         0   35
+142	          if                  if         0   36
+143	           (         left braket         0   36
+144	          !!                 not         0   36
+145	           (         left braket         0   36
+146	          _A          identifier         0   36
+147	          <=                less         0   36
+148	           (         left braket         0   36
+149	          _B          identifier         0   36
+150	           +                 add         0   36
+151	          _C          identifier         0   36
+152	           )        right braket         0   36
+153	           )        right braket         0   36
+154	           )        right braket         0   36
+155	        body               start         0   37
+156	       print              output         0   38
+157	           (         left braket         0   38
+158	          10              number        10   38
+159	           )        right braket         0   38
+160	           ;           separator         0   38
+161	        else                else         0   39
+162	       print              output         0   40
+163	           (         left braket         0   40
+164	           0              number         0   40
+165	           )        right braket         0   40
+166	           ;           separator         0   40
+167	         end                 end         0   41
+168	         end                 end         0   42
+169	                     end of file         0   42

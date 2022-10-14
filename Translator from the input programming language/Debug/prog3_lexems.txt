@@ -1,0 +1,117 @@
+Table of tokens!
+=======================================================
+#	        NAME                TYPE     VALUE LINE
+=======================================================
+1	     $*Prog3            comentar         0    1
+2	        name             program         0    2
+3	    <_PROG3>        program name         0    2
+4	           ;           separator         0    2
+5	        body               start         0    3
+6	        data            variable         0    4
+7	   integer32            var type         0    4
+8	          _A          identifier         0    4
+9	           ,               comma         0    4
+10	         _A2          identifier         0    4
+11	           ,               comma         0    4
+12	          _B          identifier         0    4
+13	           ,               comma         0    4
+14	          _X          identifier         0    4
+15	           ,               comma         0    4
+16	         _C1          identifier         0    4
+17	           ,               comma         0    4
+18	         _C2          identifier         0    4
+19	           ;           separator         0    4
+20	        scan               input         0    5
+21	           (         left braket         0    5
+22	          _A          identifier         0    5
+23	           )        right braket         0    5
+24	           ;           separator         0    5
+25	        scan               input         0    6
+26	           (         left braket         0    6
+27	          _B          identifier         0    6
+28	           )        right braket         0    6
+29	           ;           separator         0    6
+30	         _A2          identifier         0    7
+31	          ::           new value         0    7
+32	          _A          identifier         0    7
+33	           ;           separator         0    7
+34	       while               while         0    8
+35	           (         left braket         0    8
+36	          !!                 not         0    8
+37	           (         left braket         0    8
+38	         _A2          identifier         0    8
+39	          >=              greate         0    8
+40	          _B          identifier         0    8
+41	           )        right braket         0    8
+42	           )        right braket         0    8
+43	          do                  do         0    8
+44	        body               start         0    9
+45	       print              output         0   10
+46	           (         left braket         0   10
+47	         _A2          identifier         0   10
+48	           *                 mul         0   10
+49	         _A2          identifier         0   10
+50	           )        right braket         0   10
+51	           ;           separator         0   10
+52	         _A2          identifier         0   11
+53	          ::           new value         0   11
+54	         _A2          identifier         0   11
+55	           +                 add         0   11
+56	           1              number         1   11
+57	           ;           separator         0   11
+58	         end                 end         0   12
+59	          _X          identifier         0   13
+60	          ::           new value         0   13
+61	           0              number         0   13
+62	           ;           separator         0   13
+63	         _C1          identifier         0   14
+64	          ::           new value         0   14
+65	           0              number         0   14
+66	           ;           separator         0   14
+67	       while               while         0   15
+68	           (         left braket         0   15
+69	         _C1          identifier         0   15
+70	          <=                less         0   15
+71	          _A          identifier         0   15
+72	           )        right braket         0   15
+73	          do                  do         0   15
+74	        body               start         0   16
+75	         _C2          identifier         0   17
+76	          ::           new value         0   17
+77	           0              number         0   17
+78	           ;           separator         0   17
+79	       while               while         0   18
+80	           (         left braket         0   18
+81	         _C2          identifier         0   18
+82	          <=                less         0   18
+83	          _B          identifier         0   18
+84	           )        right braket         0   18
+85	          do                  do         0   18
+86	        body               start         0   19
+87	          _X          identifier         0   20
+88	          ::           new value         0   20
+89	          _X          identifier         0   20
+90	           +                 add         0   20
+91	           1              number         1   20
+92	           ;           separator         0   20
+93	         _C2          identifier         0   21
+94	          ::           new value         0   21
+95	         _C2          identifier         0   21
+96	           +                 add         0   21
+97	           1              number         1   21
+98	           ;           separator         0   21
+99	         end                 end         0   22
+100	         _C1          identifier         0   23
+101	          ::           new value         0   23
+102	         _C1          identifier         0   23
+103	           +                 add         0   23
+104	           1              number         1   23
+105	           ;           separator         0   23
+106	         end                 end         0   24
+107	       print              output         0   25
+108	           (         left braket         0   25
+109	          _X          identifier         0   25
+110	           )        right braket         0   25
+111	           ;           separator         0   25
+112	         end                 end         0   26
+113	                     end of file         0   26

@@ -1,0 +1,42 @@
+$*Prog2
+name <_PROG2>;
+body
+data integer32 _A,_B,_C;
+scan(_A);
+scan(_B);
+scan(_C);
+if(_A >= _B)
+body
+	if(_A <= _C)
+	body
+		print(_C);
+	else
+		print(_A);
+	end
+else
+	if(_B <= _C)
+	body
+		print(_C);
+	else
+		print(_B);
+	end
+end
+if((_A eg _B) && (_A eg _C) && (_B eg _C))
+body
+	print(1);
+else
+	print(0);
+end
+if((_A <= 0) || (_B <= 0) || (_C <= 0))
+body
+	print(- 1);
+else
+	print(0);
+end
+if(!!(_A <= (_B + _C)))
+body
+	print(10);
+else
+	print(0);
+end
+end

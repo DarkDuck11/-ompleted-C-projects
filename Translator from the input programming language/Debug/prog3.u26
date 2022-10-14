@@ -1,0 +1,26 @@
+$*Prog3
+name <_PROG3>;
+body
+data integer32 _A,_A2,_B,_X,_C1,_C2;
+scan(_A);
+scan(_B);
+_A2::_A;
+while(!!(_A2 >= _B)) do
+body
+	print(_A2 * _A2);
+	_A2::_A2 + 1;
+end
+_X::0;
+_C1::0;
+while(_C1 <= _A) do
+body
+	_C2::0;
+	while(_C2 <= _B) do
+	body
+		_X::_X + 1;
+		_C2::_C2 + 1;
+	end
+_C1::_C1 + 1;
+end
+print(_X);
+end

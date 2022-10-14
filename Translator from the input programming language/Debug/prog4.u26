@@ -1,0 +1,10 @@
+$*Prog4
+name <_PROG4>;
+body
+data integer32 _A,_B,_С,_X;
+scan(_A);
+scan(_B);
+scan(_С);
+_X::_A * 10 + _B / 10 + _C % 10;
+print(_X);
+end
